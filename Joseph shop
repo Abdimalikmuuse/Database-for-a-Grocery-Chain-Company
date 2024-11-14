@@ -1,0 +1,72 @@
+https://your-username.github.io/joseph-cosmetics-website/<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph - Cosmetics Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Black background */
+            color: #FFD700; /* Gold text */
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #000;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero-section h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            color: #e0e0e0; /* Light gray for subtitle */
+        }
+        .cta-button {
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #b8860b; /* Darker gold on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero-section">
+        <h1>Joseph Cosmetics Shop</h1>
+        <p>Discover the luxury of our exclusive cosmetic line.</p>
+        <button class="cta-button">Shop Now</button>
+    </div>
+</body>
+</html>
